@@ -126,6 +126,12 @@ During the development and configuration of the Product CRUD application, severa
 2. **JSP Configuration**: Correctly defining paths for JSP views in the configuration was essential to render the pages accurately.
 
 
+## Screenshots
+![Screenshot from 2024-10-08 13-08-41](https://github.com/user-attachments/assets/4446a58a-04d8-407d-bb31-d122439dea26)
+![Screenshot from 2024-10-08 13-10-27](https://github.com/user-attachments/assets/928503b8-ec69-4b72-a5f0-b48eebd7a296)
+![Screenshot from 2024-10-08 13-10-13](https://github.com/user-attachments/assets/61307554-0bf7-4161-bde6-835c6d3cc843)
+![Screenshot from 2024-10-08 13-10-01](https://github.com/user-attachments/assets/8f473671-90c6-4e93-addf-7e0c84372f39)
+
 ## Conclusion
 
 This Product CRUD application serves as a practical demonstration of Spring MVC and JDBC principles. It provides an effective way to implement a web application with basic CRUD operations and offers valuable insights into configuring and using the Spring framework. 
