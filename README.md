@@ -57,7 +57,7 @@ Ensure you have the following installed:
 Clone the project repository from GitHub:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/krsnaSingh/product-management.git
 ```
 
 ### Step 2: Set Up Database
