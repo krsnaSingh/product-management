@@ -1,40 +1,19 @@
 package productcrudapp.service;
 
+
 import productcrudapp.model.Product;
-import productcrudapp.dao.ProductDAO;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public class ProductService {
-
-    @Autowired
-    private ProductDAO productDAO;
-
+public interface ProductService {
     
-    public void createProduct(Product product) {
-        productDAO.create(product);
-    }
-
+    void createProduct(Product product);
     
-    public Product getProductById(int id) {
-        return productDAO.read(id);
-    }
-
-   
-    public List<Product> getAllProducts() {
-        return productDAO.readAll();
-    }
-
+    Product getProductById(int id);
     
-    public void updateProduct(Product product) {
-        productDAO.update(product);
-    }
-
-   
-    public void deleteProduct(int id) {
-        productDAO.delete(id);
-    }
+    List<Product> getAllProducts();
+    
+    void updateProduct(Product product);
+    
+    void deleteProduct(int id);
 }
